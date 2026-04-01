@@ -16,6 +16,14 @@ Traditional clusters waste budget on multiple CPUs and RAM sticks. Node 3 focuse
 - **Power Control:** RPi Pico (Sentinel) <---> 5V Relay <---> Server PSU (Node 3).
 - **Authorization:** Node 3 only powers up when Dual-RFID keys are validated at the Sentinel Terminal.
 
+## Phase 3 Case 
+this case count air flow and structure of plastic so tape wont give it to melt 
+<img width="740" height="601" alt="Знімок екрана 2026-04-01 о 02 05 22" src="https://github.com/user-attachments/assets/fdbdfc4f-af2d-400f-9bb5-400a4850b2ad" />
+<img width="616" height="644" alt="Знімок екрана 2026-04-01 о 02 05 27" src="https://github.com/user-attachments/assets/0ab53205-b373-4d20-9c1b-934e55c890c9" />
+<img width="648" height="604" alt="Знімок екрана 2026-04-01 о 02 05 31" src="https://github.com/user-attachments/assets/69c52d28-44fb-4b09-ba97-ac751b74d527" />
+<img width="874" height="559" alt="Знімок екрана 2026-04-01 о 02 05 43" src="https://github.com/user-attachments/assets/5e91af34-b8c7-4077-a335-c410e9ad2411" />
+
+
 ## 💰 Budget Breakdown ($400 Target)
 
 | Component | Model | Est. Price £/$ |Link|
@@ -29,3 +37,8 @@ Traditional clusters waste budget on multiple CPUs and RAM sticks. Node 3 focuse
 | **Structure** | Wire Mesh Roll Filter Screen Sheets Stainless Steel Woven Wire 20 Mesh Fine Metal Rodent Proof Ai | £5.99 / $7.90 |[amazon](https://www.amazon.co.uk/Filter-Screen-Sheets-Stainless-Rodent/dp/B0F3JHMMRX/ref=sr_1_8_sspa?crid=1N4MVP831KHH2&dib=eyJ2IjoiMSJ9.I55eHo7ROUpoMsweeHQmck5q5nJ5GTG44BJvZGMuJf3tcyOhNB4oXFXF4w14etPf9evFlzSvrvrkGY0jzoOEf2oEjh7BVP9plsNEUvOvbsvbmQYW4sMTSyDDfZFJcuX6Ivy0CU6zVY9Rk4zM_jgWHQ.eNn74ACDDZ_fP7_FdjMT5LCkBgeyMifi8NPDbqJ3fNs&dib_tag=se&keywords=BLOSTM+304+Stainless+Steel+Wire+Mesh+Roll+-+40+cm+15+cm&qid=1774999291&refinements=p_36%3A-1500&rnid=118657031&s=diy&sprefix=blostm+304+stainless+steel+wire+mesh+roll+-+40+cm+15+cm%2Cdiy%2C273&sr=1-8-spons&aref=PkL9Mj5hoX&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1)
 | **Thermal** | Aluminum Heat Shield Tape | £5.70 / ~$7..51 |[amazon](https://www.aliexpress.com/item/1005009506779702.html?dp=7362af5bbdf2cb56931232c8f2cd2110&isdl=y&aff_fsk=_ooD0gls&src=TwengaUK&aff_platform=aff_feeds&aff_short_key=_ooD0gls&pdp_npi=4%40dis!GBP!1.12!1.04!!!!!%40!12000049313194335!afff!!!&gad_source=1&gad_campaignid=23633928415&gbraid=0AAAAA-vcSCfVQEaUjJYqm18AMd5PbOw1L)
 | **TOTAL** |  | **£296.29 / 390,56** ||
+
+<img width="436" height="329" alt="image" src="https://github.com/user-attachments/assets/f6697028-7111-472f-91f3-b30129c3f341" />
+<img width="579" height="507" alt="image" src="https://github.com/user-attachments/assets/581ba47b-3f87-44ec-b886-db9f04c0bd11" />
+
+
