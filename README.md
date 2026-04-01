@@ -1,20 +1,24 @@
-# ⚡ Hydra Node 3: Obsidian Sled (GPU Expansion)
+## Hydra Node 3: Obsidian Sled (GPU Expansion)
 
-Node 3 is a "Stateless Compute" unit designed to scale the VRAM capacity of the Hydra Cluster without the overhead of a full PC build. It is physically controlled by the **Sentinel Phase 2** interface.
+Node 3 is a **Stateless Compute** unit designed to expand the VRAM capacity of the Hydra Cluster without the complexity of a full PC. It operates under the **Sentinel Phase 2** interface for monitoring and coordination.
 
-## 🧠 System Concept
-Traditional clusters waste budget on multiple CPUs and RAM sticks. Node 3 focuses 75% of its budget on the **GPU (RTX 3060 12GB)**. It connects directly to the Master Node's PCIe bus via an M.2 bridge, appearing as a native second GPU for AI models.
+###  System Concept
+Traditional cluster nodes spend a lot on CPUs and RAM. Node 3 focuses the majority of its resources on the **GPU (ASUS RTX 3060 TUF 12GB)**, connecting directly to the Master Node via an **ADT-Link R43SG M.2 PCIe bridge**, making it appear as a secondary GPU for AI workloads.
 
-## 🛠️ Hardware Specifications
-- **GPU:** NVIDIA RTX 3060 (12GB GDDR6 version for LLM context depth).
-- **Interface:** ADT-Link R43SG (M.2 NVMe to PCIe x16 Gen3 Bridge).
-- **Power Unit:** 1200W Platinum Server PSU + 12-Port Breakout Board.
-- **Cooling:** Open-frame chassis with dual 120mm high-static pressure fans.
+###  Hardware Specifications
+- **GPU:** ASUS NVIDIA RTX 3060 TUF Gaming OC 12GB  
+- **Interface:** ADT-Link R43SG (M.2 NVMe → PCIe x16 Gen3 Bridge)  
+- **Material:** 2 kg DEEPLEE PLA Plus Black for 3D-printed frame  
+- **Cooling:** Open-frame chassis with:  
+  - 2 × ARCTIC P12 Pro 120 mm PWM high-static pressure fans  
+  - 1 × PC 120 mm high-CFM fan (31 mm/H2O)  
+- **Structure & Protection:** Stainless steel wire mesh dust filter and aluminum heat shielding tape  
+- **Mounting Hardware:** M3 hex socket bolts and nuts for secure GPU placement  
 
-## 🔌 Connection & Logic
-- **Data:** M.2 Slot (Master Node) <---> R43SG Bridge <---> RTX 3060 (Node 3).
-- **Power Control:** RPi Pico (Sentinel) <---> 5V Relay <---> Server PSU (Node 3).
-- **Authorization:** Node 3 only powers up when Dual-RFID keys are validated at the Sentinel Terminal.
+###  Connection & Logic
+- **Data Path:** Master Node PCIe Slot ←→ ADT-Link R43SG Bridge ←→ RTX 3060 (Node 3)  
+- **Power & Control:** Node 3 uses **direct connection from PSU to GPU**, no separate relay module is required; all fan and power control is handled remotely by **Node 4**  
+- **Authorization & Monitoring:** Node 3 boots automatically as part of the Hydra Cluster, monitored by Sentinel Phase 2 for GPU status and health data
 
 ## Phase 3 Case 
 this case count air flow and structure of plastic so tape wont give it to melt 
